@@ -1,6 +1,6 @@
 /**
  * author cuishijie
- * 
+ *
  * face-web component
  * apis props
  * @onChange (function) output base64 real time
@@ -20,10 +20,10 @@ class FaceWeb extends React.Component {
   }
 
   initFace() {
-    const { debounceTime = 0 } = this.props;
+    const { debounceTime = 1000 } = this.props;
 
     video = document.getElementById('_videoFace');
-    canvas = document.getElementById('_canvasFace');       
+    canvas = document.getElementById('_canvasFace');
     canvas2 = document.getElementById('_canvas2Face');
     context = canvas.getContext('2d');
     context2 = canvas2.getContext('2d');

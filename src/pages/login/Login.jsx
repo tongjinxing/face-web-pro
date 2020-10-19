@@ -36,9 +36,9 @@ class Login extends React.Component {
 				/>
 
         <div className={styles.picture}>
-          <div className={styles.title}>
+          {/* <div className={styles.title}>
             {REAL_TIME_SCREENSHOTS}
-          </div>
+          </div> */}
           <div className={styles.imgBox}>
             <img src={currentBase64} alt="" />
           </div>
