@@ -20,7 +20,7 @@ class FaceWeb extends React.Component {
   }
 
   initFace() {
-    const { debounceTime = 1000 } = this.props;
+    const { debounceTime = 10 } = this.props;
 
     video = document.getElementById('_videoFace');
     canvas = document.getElementById('_canvasFace');
