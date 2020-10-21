@@ -1,6 +1,6 @@
 {
   "private": true,
-  "homepage": "https://csj5588.github.io/Face-Web",
+  "homepage": "https://github.com/tongjinxing/face-web-pro",
   "scripts": {
     "start": "roadhog server",
     "build": "roadhog build",
